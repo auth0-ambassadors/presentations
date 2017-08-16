@@ -1,0 +1,11 @@
+.btn-margin {
+  margin-top: 7px
+}
+
+#ping-view {
+  display: none;
+}
+
+.panel-body h3 {
+  margin-top: 0;
+}
