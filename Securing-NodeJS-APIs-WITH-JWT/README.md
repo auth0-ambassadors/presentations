@@ -6,4 +6,4 @@ This this session I was discuss how to secure NodeJS APIs using JWT. I workthoug
 **[Chathu Vishwajith](http://chathu.me)**
 
 ## Audience
-* **(Colombo JS Meetup)[https://www.meetup.com/Colombo-JS-Meetup/]**
+* **[Colombo JS Meetup](https://www.meetup.com/Colombo-JS-Meetup/)**
