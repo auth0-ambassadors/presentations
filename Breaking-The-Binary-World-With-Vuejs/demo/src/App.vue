@@ -1,66 +1,62 @@
 <template>
   <div id="app">
-
-    <header>
-      <router-link to="/">🏠</router-link>
-      <router-link to="/login">🔐</router-link>
-      <a href="#" @click.prevent="logout">🚪</a>
-    </header>
-
-    <h1>Demo Auth Vue</h1>
-    <router-view></router-view>
+    <logo type="new"></logo>
+    <input type="text" v-model="msg">
+    <h1> {{ msg }} </h1>
+    <button @click="toggleModal"> Open Modal</button>
+    <modal v-show="showModal" :msg="msg" @close="toggleModal"></modal>
   </div>
 </template>
 
 <script>
+import Logo from './Logo.vue'
+import Modal from './Modal.vue'
+
 export default {
   name: 'app',
 
+  components: { Logo, Modal },
+
+  data () {
+    return {
+      msg: 'Hello Warsaw 🇵🇱!',
+      showModal: false
+    }
+  },
+
   methods: {
-    logout () {
-      window.localStorage.clear()
-      this.$router.push({ name: '/login' })
+    toggleModal () {
+      this.showModal = !this.showModal
     }
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  body {
+    background-color: #F4F4F4;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    width: 100%;
+  }
 
-h1, h2 {
-  font-weight: normal;
-}
+  h1, input {
+    font-weight: 300;
+    margin: 0;
+    font-size: 3.2em;
+    color: #2c3e50;
+  }
 
-header {
-  text-align: left;
-  border-bottom: 2px dotted #2c3e50;
-}
+  h1:hover {
+    cursor: pointer;
+    opacity: 0.7;
+  }
 
-header a {
-  font-size: 2em;
-  margin-left: 20px;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a, .green {
-  color: #42b983;
-}
-
+  #app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
 </style>

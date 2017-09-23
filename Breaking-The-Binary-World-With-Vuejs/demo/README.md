@@ -1,6 +1,11 @@
-# demo-auth-vue
+# [#FrontendCon2017](https://frontend-con.io)
 
-> A Vue.js project
+> ✨ Vue.js demo web app for #FrontendCon2017
+
+![](./src/assets/new-logo.png)
+
+### 📽 [Slides](https://speakerdeck.com/ianaya89/breaking-the-binary-world-with-vue-dot-js)
+### 💻 [Live Demo](http://ianaya89.com/frontend-con-2017/)
 
 ## Build Setup
 
