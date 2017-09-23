@@ -1,9 +1,9 @@
-# Vuejs ❤️ JWT
+# Breaking The Binary World with Vue.js 🌎🔨
 
-JWT seems to be the new black in the authentication world. It is also a perfect fit when we need to add security in the client side. I will make an introduction to JWT, share my experience using it to "protect" SPA and show how easy is to implement it in your Vue.js app.
+Vue.js is more consolidated than ever. According to JS Frameworks Benchmark, it is one of the JavaScript frameworks with better performance. Vue.js is the future of the client-side MV* world, and is one of the most promising alternatives, competing with industry giants frameworks, such as React and Angular 2. We will review the core concepts of the framework, and demonstrate how you can scale progressively, even when you have complex requirements.
 
 ## Speaker
 **Ignacio Anaya**
 
 ## Audience
-**Vue.js Berlin**
+**FrontendCon 2017**
