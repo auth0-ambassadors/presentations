@@ -5,8 +5,8 @@ Remember when setting up an auth system was easy? Me neither. From the signup fo
 ## Speaker
 **Joel Lord**
 
-##Audience
-* **Paris Js** (Recording)[https://www.youtube.com/watch?v=FBOj7eA0Yxg&t=145s]
+## Audience
+* **Paris Js** [Recording](https://www.youtube.com/watch?v=FBOj7eA0Yxg&t=145s)
 
-##Code Samples
-(Github)[https://github.com/joellord/secure-spa-auth0]
+## Code Samples
+[Github](https://github.com/joellord/secure-spa-auth0)
