@@ -28,6 +28,7 @@ In this talk we will discuss the reason why we I've started to write about Auth0
 - [Github Repository](https://github.com/DominikAngerer/talk-vuejs-auth0)
 - [Codesandbox](https://codesandbox.io/s/github/DominikAngerer/talk-vuejs-auth0)
 - [Recording](https://www.youtube.com/watch?v=6fCz6cq7fBM&)
+- [Article](https://www.storyblok.com/tp/how-to-auth0-vuejs-authentication)
 
 ## Speaker
 **[Dominik Angerer](https://twitter.com/dominikangerer1)**
