@@ -1,5 +1,7 @@
-## Advanced Single Page Application Authentication
-At the end of 2018, the OAuth working group released a new best current practices (BCP) document which recommended developers no longer implement the Implicit Grant Authorization Flow and instead implement the Auth Code with PKCE Authorization Flow. Unfortunately, the majority of Single Page Applications today implement the Implicit Flow. In this talk we’ll discuss the impacts of the BCP, compare differences between Implicit and Auth Code with PKCE, demo both of these approaches in a modern SPA, and share the knowledge you need to know when deciding on whether to follow the BCP or continue with the Implicit Grant for your authentication and authorization purposes.
+## Securing Spring APIs with JSON Web Tokens
+Spring is a powerful stack for building Java based APIs. Spring Security gives us a powerful and highly customizable authentication and access control framework for our APIs. But this is a Java User Group so you probably already knew that. If not, we’ll go over the basics of setting up and securing a Spring based API.
+
+Next, we’ll build a Single Page Application with VueJS and show how it can securely consume our Spring API. We’ll cover authentication, authorization, how to use JSON Web Tokens and identity best practices to ensure your next application is as secure as it can be.
 
 ### Speaker
 Ado Kukic
