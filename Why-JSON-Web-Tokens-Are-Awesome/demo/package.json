@@ -21,6 +21,6 @@
     "jsonwebtoken": "^7.4.2",
     "jwks-rsa": "^1.2.0",
     "npm-run-all": "^4.0.2",
-    "serve": "^6.0.0"
+    "serve": "^7.1.3"
   }
 }
